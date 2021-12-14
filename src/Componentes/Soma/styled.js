@@ -1,21 +1,31 @@
 import styled from "styled-components";
 
+export const Area= styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    select{
+        width:90px;
+    }
+    
+`
 export const Campo = styled.div`
     box-sizing: border-box;
     width:92px;
     border-radius:5px;
     border:1px solid #000;
-    margin:5px 15px;
+    margin:5px 13px;
     .left{
         border-radius:5px 0 0 5px;
-        background-color:#F00;
+        background-color:#DC143C;
         &:hover{
             background-color:#F55;
         }
     }
     .right{
         border-radius:0 5px 5px 0;
-        background-color:#0F0;
+        background-color:#00FF7F;
         &:hover{
             background-color:#5F5;
         }
